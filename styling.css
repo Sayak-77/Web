@@ -1,0 +1,158 @@
+body
+{
+  font-family:'Lemonada', cursive;
+  margin: 0px;
+  background-color: black;
+}
+.container
+{
+    padding: 100px 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+.background-Orange
+{
+    background-color:black;
+}
+header#main .brand a
+{
+    font-family: 'Fredoka One' , cursive;
+    text-decoration: none;
+    font-size: 7em;
+    color: white;
+}
+.btn
+{
+  display: inline-block;
+  border: none;
+  padding: 10px 16px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Fredoka One', cursive;
+  transition: all 0.9s ease;
+  box-shadow: 0 5px 4px rgba(0,0,0,.5);
+  margin-left: 5px;
+}
+.btn-smg
+{
+    color: orange;
+    background-color: black;
+    border-color: black;
+    transition: all 0.7s ease;
+}
+.btn:hover
+{
+    background-color: white
+}
+.btn-smg:hover
+{
+    color: black;
+    transform: translate(0,-4px);
+}
+nav#main ul
+{
+    list-style-type: none;
+    margin:0;
+    text-align: left;
+    background-color:blueviolet;
+    height: 90px;
+    position: relative;
+    bottom: 5pc;
+}
+nav#main ul li
+{
+    display: inline-block;
+    margin: 10px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+nav#main ul li a
+{
+    position: relative;
+    left: 12pc;
+    bottom: 15px;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+header#main .brand1 a
+{
+    font-family: 'Ma Shan Zheng' ,cursive;
+    color: red;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+}
+ .tot 
+{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3.5pc;
+    color: rgba(238, 135, 39, 0.651);
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    top: 5px;
+    right: 3px;
+    background-color: black;
+    border-radius: 20px;
+}
+.img
+{
+    margin-left: 325px;
+}
+.search-box
+{
+    position: absolute;
+    background: black;
+    height: 35px;
+    border-radius: 40px;
+    padding: 5px;
+    transform: translate(0%,-150%);
+    margin-left: 1300px;
+}
+.search-box:hover > .search-txt
+{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn
+{
+    background: white;
+    height: 35px;
+    margin-bottom: 10px;
+}
+.search-btn
+{
+    color: orange;
+    float: right;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+.search-txt
+{
+    border: none;
+    font-family: 'Lemon' ,cursive;
+    font-weight: 300;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+    transition: 0.4s;
+    line-height: 33px;
+    width: 0px;
+}
