@@ -1,0 +1,69 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+}
+h1
+{
+    position: relative;
+    left: 90px;
+    margin:20px 0 0;
+    font-size: 4.5em;
+    font-weight: 900;
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+}
+h1 span
+{
+    color: #ff022c;
+}
+h1:before
+{
+    content: '';
+    position:absolute;
+    left: 110%;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent 0%,#000 5%,#000 100%);
+    animation: animate 6s linear forwards;
+    animation-delay: 1.7s;
+}
+@keyframes animate 
+{
+    0%
+    {
+        left: 110%;
+    }
+    100%
+    {
+        left: -20%;
+    }
+}
+video
+{
+    position:absolute;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    pointer-events: none;
+    mix-blend-mode: screen;
+}
+.god
+{
+    font-size: 3pc;
+    position: relative;
+    bottom: 8pc;
+    right: 43.5pc;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-family: 'Righteous', cursive;
+    font-weight: 700;
+}

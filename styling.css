@@ -1,18 +1,19 @@
 body
 {
-  font-family:'Lemonada', cursive;
+  font-family:'Poppins', san-serif;
   margin: 0px;
-  background-color: black;
+  background: hsla(312, 77%, 86%, 1);
+  background: hsla(220, 61%, 79%, 1);
+  background: linear-gradient(225deg, hsla(220, 61%, 79%, 1) 17%, hsla(312, 77%, 86%, 1) 59%, hsla(9, 72%, 86%, 1) 91%);
+  background: -moz-linear-gradient(225deg, hsla(220, 61%, 79%, 1) 17%, hsla(312, 77%, 86%, 1) 59%, hsla(9, 72%, 86%, 1) 91%);
+  background: -webkit-linear-gradient(225deg, hsla(220, 61%, 79%, 1) 17%, hsla(312, 77%, 86%, 1) 59%, hsla(9, 72%, 86%, 1) 91%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A7BDEA", endColorstr="#F7C0EC", GradientType=1 );
 }
 .container
 {
     padding: 100px 50px;
     text-align: center;
     padding-top: 40px;
-}
-.background-Orange
-{
-    background-color:black;
 }
 header#main .brand a
 {
@@ -43,6 +44,7 @@ header#main .brand a
     background-color: black;
     border-color: black;
     transition: all 0.7s ease;
+    font-size: 1.3pc;
 }
 .btn:hover
 {
@@ -58,10 +60,11 @@ nav#main ul
     list-style-type: none;
     margin:0;
     text-align: left;
-    background-color:blueviolet;
+    background: #171717;
     height: 90px;
     position: relative;
     bottom: 5pc;
+    box-shadow: 0 3px 5px 4.5px rgba(252, 212, 137, 0.932);
 }
 nav#main ul li
 {
@@ -73,12 +76,12 @@ nav#main ul li
 nav#main ul li a
 {
     position: relative;
-    left: 12pc;
-    bottom: 15px;
+    left: 15pc;
+    bottom: 9px;
     font-size: 21px;
     text-transform: uppercase;
     font-weight: 700;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 header#main .brand1 a
@@ -93,13 +96,12 @@ header#main .brand1 a
 {
     font-family: 'Alfa Slab One', cursive;
     font-size: 3.5pc;
-    color: rgba(238, 135, 39, 0.651);
+    color:white;
     margin-left: 30px;
     margin-right: 30px;
     position: relative;
     top: 5px;
     right: 3px;
-    background-color: black;
     border-radius: 20px;
 }
 .img
@@ -110,10 +112,10 @@ header#main .brand1 a
 {
     position: absolute;
     background: black;
-    height: 35px;
+    height: 40px;
     border-radius: 40px;
     padding: 5px;
-    transform: translate(0%,-150%);
+    transform: translate(0%,-130%);
     margin-left: 1300px;
 }
 .search-box:hover > .search-txt
@@ -132,7 +134,7 @@ header#main .brand1 a
     color: orange;
     float: right;
     width: 40px;
-    height: 30px;
+    height: 35px;
     border-radius: 50%;
     background: black;
     display: flex;
@@ -156,3 +158,1100 @@ header#main .brand1 a
     line-height: 33px;
     width: 0px;
 }
+.price
+{
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+    position: relative;
+    bottom: 90px;
+    right: 100px;
+}
+.price .box1
+{
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    width: calc(470px - 40px);
+    height: calc(300px - 40px);
+    background: #383b8a;
+    float: left;
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 40px 40px 40px 40px;
+}
+.price .box2
+{
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    width: calc(470px - 40px);
+    height: calc(300px - 40px);
+    background: #383b8a;
+    float: left;
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 40px 40px 40px 40px;
+}
+.price .box3
+{
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    width: calc(470px - 40px);
+    height: calc(300px - 40px);
+    background:#383b8a;
+    float: left;
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 40px 40px 40px 40px;
+}
+.price .box1 .icon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #43449c;
+    transition: 0.6s;
+    z-index: 1;
+}
+.price .box1:hover .icon
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    box-shadow: 0 6px 8px rgba(0,0,0,.8);
+}
+.price .box1 .icon .fab
+{
+    position: absolute;
+    top: 40%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    font-size: 120px;
+    transition: 0.6s;
+    color:#000000 solid solid;
+}
+.price .box1:hover .icon .fab
+{
+    font-size: 45px;
+    margin-top: 2px;
+}
+.price .box1 .content1
+{
+    position: absolute;
+    top: 90%;
+    left: 95px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price .box1 .content2
+{
+    position: absolute;
+    top: 130%;
+    left: 120px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price .box1 .content3
+{
+    position: absolute;
+    top: 170%;
+    left: 115px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price .box1 .content4
+{
+    position: absolute;
+    top: 205%;
+    left: 90px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.2pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price .box1 .content5
+{
+    position: absolute;
+    top: 90%;
+    left: 199px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price .box1:hover .content1
+{
+    top: 90px;
+    opacity: 1;
+}
+.price .box1:hover .content2
+{
+    top: 130px;
+    opacity: 1;
+}
+.price .box1:hover .content3
+{
+    top: 170px;
+    opacity: 1;
+}
+.price .box1:hover .content4
+{
+    top: 205px;
+    opacity: 1;
+}
+.price .box1:hover .content5
+{
+    top: 90px;
+    opacity: 1;
+}
+.price .box1 .content1 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price .box1 .content2 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price .box1 .content3 a
+{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.price .box1 .content4 a
+{
+    color: gold;
+    text-decoration: none;
+}
+.price .box1 .content5 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price .box1 .content1 .fas
+{
+    color: black;
+    position: relative;
+    right: 5px;
+}
+.price .box1 .content2 .fas
+{
+    color: black;
+    position: relative;
+    right: 10px;
+}
+.price .box1 .content3 .fas
+{
+    color: black;
+    position: relative;
+    right: 10px;
+}
+.price .box1 .content5 .fas
+{
+    color: black;
+    position: relative;
+    right: 5px;
+}
+.price .glow1
+{
+    position: relative;
+    right: 100px;
+    width: calc(470px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(90deg,black,#e0cbee,#e0cbee,black);
+}
+.price .glow2
+{
+    position: relative;
+    right: 0.5pc;
+    width: calc(470px - 30px);
+    height: calc(300px - 30px);
+    background: linear-gradient(90deg,black,#d6bdf1,#d6bdf1,black);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 40px 40px 40px 40px;
+}
+.price .glow3
+{
+    position: relative;
+    left: 64pc;
+    bottom: 18.7pc;
+    width: calc(470px - 30px);
+    height: calc(300px - 30px);
+    background:linear-gradient(90deg,black,#bdbef2,#bdbef2,black);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 40px 40px 40px 40px;;
+    
+}
+.price .glow2 .box2 .icon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #43449c;
+    transition: 0.6s;
+    z-index: 1;
+}
+.price .box2:hover .icon
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 6px 8px rgba(0,0,0,.8);
+}
+.price .box2 .icon .fas
+{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+    transition: 0.6s;
+    color:#1b1c1b;
+}
+.price .box2:hover .icon .fas
+{
+    font-size: 45px;
+    margin-top: 2px;
+}
+.price .box2 .content1
+{
+    position: absolute;
+    top: 90%;
+    left: 60px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price .box2 .content2
+{
+    position: absolute;
+    top: 130%;
+    left: 65px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.45pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price .box2 .content3
+{
+    position: absolute;
+    top: 170%;
+    left: 120px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.45pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price .box2 .content1 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price .box2 .content2 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price .box2 .content3 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price .box2 .content1 .fas
+{
+    color: black;
+    position: relative;
+    right: 5px;
+}
+.price .box2 .content2 .fas
+{
+    color: black;
+    position: relative;
+    right: 10px;
+}
+.price .box2 .content3 .fas
+{
+    color: black;
+    position: relative;
+    right: 10px;
+}
+.price .box2:hover .content1
+{
+    top: 90px;
+    opacity: 1;
+}
+.price .box2:hover .content2
+{
+    top: 130px;
+    opacity: 1;
+}
+.price .box2:hover .content3
+{
+    top: 170px;
+    opacity: 1;
+}
+.price .glow3 .box3 .icon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#43449c;
+    transition: 0.6s;
+    z-index: 1;
+}
+.price .box3:hover .icon
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 6px 8px rgba(0,0,0,.8);
+}
+.price .box3 .icon .fab
+{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+    transition: 0.6s;
+    color: black;
+}
+.price .box3:hover .icon .fab
+{
+    font-size: 45px;
+    margin-top: 2px;
+    margin-left: 1px;
+}
+.price .box3 .content1
+{
+    position: absolute;
+    top: 90%;
+    left: 100px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price .box3 .content2
+{
+    position: absolute;
+    top: 130%;
+    left: 60px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price .box3 .content3
+{
+    position: absolute;
+    top: 170%;
+    left: 125px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price .box3 .content4
+{
+    position: absolute;
+    top: 205%;
+    left: 90px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.2pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price .box3 .content1 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price .box3 .content2 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price .box3 .content3 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price .box3 .content4 a
+{
+    color: gold;
+    text-decoration: none;
+}
+.price .box3 .content1 .fas
+{
+    color: black;
+    position: relative;
+    right: 10px;
+}
+.price .box3 .content2 .fas
+{
+    color: black;
+    position: relative;
+    right: 5px;
+}
+.price .box3 .content3 .fas
+{
+    color: black;
+    position: relative;
+    right: 5px;
+}
+.price .box3:hover .content1
+{
+    top: 90px;
+    opacity: 1;
+}
+.price .box3:hover .content2
+{
+    top: 130px;
+    opacity: 1;
+}
+.price .box3:hover .content3
+{
+    top: 170px;
+    opacity: 1;
+}
+.price .box3:hover .content4
+{
+    top: 205px;
+    opacity: 1;
+}
+.price1
+{
+    width: 1900px;
+    height: 700px;
+    margin: 240px auto;
+    position: relative;
+    bottom: 250px;
+}
+.price1 .box1
+{
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    width: calc(470px - 40px);
+    height: calc(300px - 40px);
+    background: #f5b9ae;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 40px 40px 40px 40px;;
+}
+.price1 .box2
+{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    width: calc(470px - 40px);
+    height: calc(300px - 40px);
+    background: #f5b9ae;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 40px 40px 40px 40px;;
+}
+.price1 .box3
+{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    width: calc(470px - 40px);
+    height: calc(300px - 40px);
+    background: #f5b9ae;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 40px 40px 40px 40px;;
+}
+.price1 .glow1 
+{
+    position: relative;
+    top: 15px;
+    left: 472px;
+    width: calc(470px - 30px);
+    height: calc(300px - 30px);
+    background: linear-gradient(90deg,black,#bdbef2,#bdbef2,black);
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 40px 40px 40px 40px;;
+}
+.price1 .glow2
+{
+    position: relative;
+    bottom: 270px;
+    left: 710px;
+    width: calc(470px - 30px);
+    height: calc(300px - 30px);
+    background: linear-gradient(90deg,black,#d6bdf1,#d6bdf1,black);
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 40px 40px 40px 40px;;
+}
+.price1 .glow3
+{
+    position: relative;
+    bottom: 555px;
+    left: 148px;
+    width: calc(470px - 30px);
+    height: calc(300px - 30px);
+    background: linear-gradient(90deg,black,#f2c2ea,#f2c2ea,black);
+    margin: 15px;;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 40px 40px 40px 40px;;
+}
+.price1 .glow1 .box1 .icon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f5cac2;
+    transition: 0.6s;
+    z-index: 1;
+}
+.price1 .box1:hover .icon
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 6px 8px rgba(0,0,0,.8);
+}
+.price1 .box1 .icon .fab
+{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+    transition: 0.6s;
+    color: black;
+}
+.price1 .box1:hover .icon .fab
+{
+    font-size: 45px;
+    margin-top: 2px;
+    margin-left: 1px;
+}
+.price1 .box1 .content1
+{
+    position: absolute;
+    top: 90%;
+    left: 75px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price1 .box1 .content2
+{
+    position: relative;
+    top: 88%;
+    left: 90px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.55pc;
+    transition: 0.6s;
+}
+.price1 .box1 .content3
+{
+    position: absolute;
+    top: 130%;
+    left: 90px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price1 .box1 .content4
+{
+    position: absolute;
+    top: 170%;
+    left: 40px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.6pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price1 .box1 .content5
+{
+    position: absolute;
+    top: 205%;
+    left: 90px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.2pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price1 .box1 .content1 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price1 .box1 .content2 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price1 .box1 .content3 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price1 .box1 .content4 a
+{
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.price1 .box1 .content5 a
+{
+    color: blueviolet;
+    text-decoration: none;
+}
+.price1 .box1 .content1 .fas
+{
+    color: black;
+    position: relative;
+    right: 10px;
+}
+.price1 .box1 .content2 .fas
+{
+    color: black;
+    position: relative;
+    right: 10px;
+}
+.price1 .box1 .content3 .fas
+{
+    color: black;
+    position: relative;
+    right: 10px;
+}
+.price1 .box1 .content4 .fas
+{
+    color: black;
+    position: relative;
+    right: 10px;
+}
+.price1 .box1:hover .content1
+{
+    top: 90px;
+    opacity: 1;
+}
+.price1 .box1:hover .content2
+{
+    top: 88px;
+    opacity: 1;
+}
+.price1 .box1:hover .content3
+{
+    top: 130px;
+    opacity: 1;
+}
+.price1 .box1:hover .content4
+{
+    top: 170px;
+    opacity: 1;
+}
+.price1 .box1:hover .content5
+{
+    top: 205px;
+    opacity: 1;
+}
+.price1 .glow2 .box2 .icon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f5cac2;
+    transition: 0.6s;
+    z-index: 1;
+}
+.price1 .box2:hover .icon
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 6px 8px rgba(0,0,0,.8);
+}
+.price1 .box2 .icon .fab
+{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+    transition: 0.6s;
+    color: black;
+}
+.price1 .box2:hover .icon .fab
+{
+    font-size: 45px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+.price1 .box2 .content1
+{
+    position: absolute;
+    top: 90%;
+    left: 35px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.6pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price1 .box2 .content2
+{
+    position: absolute;
+    top: 92%;
+    right: 45px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price1 .box2 .content3
+{
+    position: absolute;
+    top: 130%;
+    left: 75px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price1 .box2 .content4
+{
+    position: absolute;
+    top: 170%;
+    left: 110px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price1 .box2 .content1 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price1 .box2 .content2 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price1 .box2 .content3 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price1 .box2 .content4 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price1 .box2 .content1 .fas
+{
+    color: black;
+    position: relative;
+    right: 2px;
+}
+.price1 .box2 .content2 .fas
+{
+    color: black;
+    position: relative;
+    right: 2px;
+}
+.price1 .box2 .content3 .fas
+{
+    color: black;
+    position: relative;
+    right: 10px;
+}
+.price1 .box2 .content4 .fas
+{
+    color: black;
+    position: relative;
+    right: 5px;
+}
+.price1 .box2:hover .content1
+{
+    top: 90px;
+    opacity: 1;
+}
+.price1 .box2:hover .content2
+{
+    top: 92px;
+    opacity: 1;
+}
+.price1 .box2:hover .content3
+{
+    top: 130px;
+    opacity: 1;
+}
+.price1 .box2:hover .content4
+{
+    top: 170px;
+    opacity: 1;
+}
+.price1 .glow3 .box3 .icon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f5cac2;
+    transition: 0.6s;
+    z-index: 1;
+}
+.price1 .box3:hover .icon
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 6px 8px rgba(0,0,0,.8);
+}
+.price1 .box3 .icon .fab
+{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+    transition: 0.6s;
+    color: black;
+}
+.price1 .box3:hover .icon .fab
+{
+    font-size: 45px;
+    margin-bottom: 2px;
+}
+.price1 .box3 .content1
+{
+    position: absolute;
+    top: 90%;
+    left: 35px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price1 .box3 .content2
+{
+    position: absolute;
+    top: 130%;
+    left: 50px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price1 .box3 .content3
+{
+    position: absolute;
+    top: 170%;
+    left: 55px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5pc;
+    transition: 0.6s;
+    opacity: 0;
+}
+.price1 .box3 .content1 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price1 .box3 .content2 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price1 .box3 .content3 a
+{
+    color: black;
+    text-decoration: none;
+}
+.price1 .box3 .content1 .fas
+{
+    color: black;
+    position: relative;
+    right: 4px;
+}
+.price1 .box3 .content2 .fas
+{
+    color: black;
+    position: relative;
+    right: 4px;
+}
+.price1 .box3 .content3 .fas
+{
+    color: black;
+    position: relative;
+    right: 4px;
+}
+.price1 .box3:hover .content1
+{
+    top: 90px;
+    opacity: 1;
+}
+.price1 .box3:hover .content2
+{
+    top: 130px;
+    opacity: 1;
+}
+.price1 .box3:hover .content3
+{
+    top: 170px;
+    opacity: 1;
+}
+
+
+
+
+

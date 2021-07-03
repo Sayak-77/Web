@@ -1,0 +1,259 @@
+html
+{
+    height: 900px;
+}
+body
+{
+  margin: 0px;
+  background:url(img.jpg);
+  background-size: 100% 160%;
+  background-repeat: no-repeat;
+  height: 830px;
+}
+.container
+{
+    padding: 100px 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+header#main .brand a
+{
+    font-family: 'Fredoka One' , cursive;
+    text-decoration: none;
+    font-size: 7em;
+    color: white;
+}
+.btn
+{
+  position: relative;
+  top: 25px;
+  display: inline-block;
+  padding: 10px 16px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Fredoka One', cursive;
+  transition: all 0.9s ease;
+  box-shadow: 0 5px 4px rgba(0,0,0,.5);
+  margin-left: 5px;
+}
+.btn-smg
+{
+    color: orange;
+    background-color: black;
+    border-color: black;
+    transition: all 0.7s ease;
+    font-size: 1.3pc;
+}
+.btn:hover
+{
+    background-color: white
+}
+.btn-smg:hover
+{
+    color: black;
+    transform: translate(0,-4px);
+}
+nav#main ul
+{
+    list-style-type: none;
+    margin:0;
+    text-align: left;
+    background:#171717;
+    height: 90px;
+    position: relative;
+    bottom: 5pc;
+    box-shadow: 0 3px 5px 4.5px rgba(255, 189, 136, 0.7);
+}
+nav#main ul li
+{
+    display: inline-block;
+    margin: 10px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+nav#main ul li a
+{
+    position: relative;
+    left: 15pc;
+    bottom: 9.5px;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+header#main .brand1 a
+{
+    font-family: 'Ma Shan Zheng' ,cursive;
+    color: red;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+}
+ .tot 
+{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3.5pc;
+    color:white;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    top:5px;
+    right: 3px;
+    border-radius: 20px;
+}
+.img
+{
+    margin-left: 325px;
+}
+.search-box
+{
+    position: absolute;
+    background: black;
+    height: 39px;
+    border-radius: 40px;
+    padding: 5px;
+    transform: translate(0%,-120%);
+    margin-left: 1300px;
+}
+.search-box:hover > .search-txt
+{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn
+{
+    background: white;
+    height: 35px;
+    margin-bottom: 10px;
+}
+.search-btn
+{
+    color: orange;
+    float: right;
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+.search-txt
+{
+    position: relative;
+    bottom: 10px;
+    border: none;
+    font-family: 'Lemon' ,cursive;
+    font-weight: 300;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+    transition: 0.4s;
+    line-height: 33px;
+    width: 0px;
+}
+.omg
+{
+    background: url(img.jpg);
+    height: 950px;
+    background-size: 100% 1200px;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 75px;
+    filter: blur(7px);
+}
+form {
+	width: 400px;
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.774);
+	padding: 30px;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 15px;
+    position: relative;
+    bottom: 53pc;
+    left: 39%;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+    color: wheat;
+    font-size: 2.1pc;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: wheat;
+	font-size: 18px;
+	padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button {
+	float: right;
+	background: black;
+	padding: 10px 15px;
+	color: #fff;
+    font-size: 1.25pc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+    height: 40px;
+    width: 90px;
+    position: relative;
+}
+button:hover{
+	color: lawngreen;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: red;
+    font-size: 1.15pc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
