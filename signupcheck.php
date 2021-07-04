@@ -66,7 +66,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])
 		$result = mysqli_query($conn, $sql);
 
 		if (mysqli_num_rows($result) > 0) {
-			header("Location: signup.php?error=The username is taken try another&$user_data");
+			header("Location: signup.php?error=The username is takem.Try another&$user_data");
 	        exit();
 		}else {
            $sql2 = "INSERT INTO users(user_name, password, name, e_mail,dept,num) VALUES('$uname', '$pass', '$name', '$email','$cllg','$mob')";
