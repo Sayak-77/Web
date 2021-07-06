@@ -31,14 +31,12 @@
       </ul>
   </nav>
     </div>
-
     <div class="container">
     <div class="row">
         <div class="col-lg-12">
           <h1 class="page-header">&nbsp;&nbsp;Are these Courses worth to you?</h1>
         </div>
-      </div>
-      
+      </div>    
   <div class="row">
          <div class="col-md-4">
           <img class="img-responsive" src="icons_pack/js.png"></a>
