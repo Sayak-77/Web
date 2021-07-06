@@ -64,7 +64,7 @@ nav#main ul
     height: 90px;
     position: relative;
     bottom: 5pc;
-    box-shadow: 0 3px 5px 4.5px rgba(252, 212, 137, 0.932);
+    box-shadow: 0 2.5px 5px 4.5px rgba(252, 212, 137, 0.932);
 }
 nav#main ul li
 {

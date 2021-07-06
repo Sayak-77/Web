@@ -26,7 +26,7 @@ header#main .brand a
 .btn
 {
   position: relative;
-  top: 25px;
+  top: 24px;
   display: inline-block;
   padding: 10px 16px;
   margin-bottom: 0;
@@ -81,7 +81,7 @@ nav#main ul li a
 {
     position: relative;
     left: 15pc;
-    bottom: 24px;
+    bottom: 23px;
     font-size: 21px;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -120,7 +120,7 @@ header#main .brand1 a
     height: 39px;
     border-radius: 40px;
     padding: 5px;
-    transform: translate(0%,-152%);
+    transform: translate(0%,-148%);
     margin-left: 1300px;
 }
 .search-box:hover > .search-txt
