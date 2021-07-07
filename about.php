@@ -28,9 +28,9 @@
 <nav id="main" class="large-8">
     <ul>
     <a class="tot">devǝlopersHu𐐒.io</a>
-    <li><a href="index.php">Home</a></li>
+    <li><a href="index2.php">Home</a></li>
     <li><a href="about.php">About</a></li>
-    <li><a href="#">Services</a></li>
+    <li><a href="services.php">Services</a></li>
     <li><a href="scope.php">Scope</a></li>
     <div class="search-box">
     <input class="search-txt" type="text" placeholder="Search">

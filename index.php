@@ -29,7 +29,7 @@
                 <a class="tot">devǝlopersHu𐐒.io</a>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="services.php">Services</a></li>
                 <li><a href="scope.php">Scope</a></li>
                 <li><a href="signup.php" class="img" style="color:cyan">Register</a></li>
                 <li><a href="login.php"><button class="btn btn-smg">Login</button></a></li>
@@ -75,7 +75,7 @@
         <div class="icon"><i class="fab fa-python"></i></div>
         <div class="content1"><a href="https://youtube.com/playlist?list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME" target="_blank">
           <i class="fas fa-arrow-alt-circle-right"></i>PYTHON</a></div>
-          <div class="content2"><a href="https://www.udemy.com/topic/django/free" target="_blank"><i class="fas fa-arrow-alt-circle-right"></i>Django</a></div>
+          <div class="content2"><a href="https://www.udemy.com/topic/django/free" target="_blank"><i class="fas fa-arrow-alt-circle-right"></i>DJANGO</a></div>
           <div class="content3"><a href="https://www.udemy.com/topic/python/free/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_
             Catchall_la.EN_cc.INDIA&utm_content=deal4584&utm_term=_._ag_82569850245_._ad_437477497176_._kw__._de_c_._dm__._pl__._ti_aud-669140681723:
             dsa-93451758763_._li_9298984_._pd__._&matchtype=b&gclid=Cj0KCQjw5auGBhDEARIsAFyNm9GX_A340iFeIhntOe4HlQtGm3Ty0vy1sgUiyTecsTD3WVYwdwdpej0aArtgEALw_wcB" target="_blank">
@@ -102,12 +102,37 @@
       30 DAYS OF FLUTTER</a></div>
       </div></div>
     </div>
-
+    <div class="price2"> 
+    <div class="glow1"><div class="box1">
+      <div class="icon"><i class="fas fa-database"></i></div>
+        <div class="content1"><a href="https://www.youtube.com/playlist?list=PLwGdqUZWnOp2R_BVnHPqD3aMg7wHWlL8k" target="_blank">
+        <i class="fas fa-arrow-alt-circle-right"></i>MySQL</a></div>
+        <div class="content2"><a href="https://www.udemy.com/topic/mysql/free/" target="_blank"><i class="fas fa-arrow-alt-circle-right"></i>UDEMY</a></div>
+        <div class="content3"><a href="https://youtube.com/playlist?list=PLZ3hIee7slTWKuMsZb8bqmamTTJwl5fm5" target="_blank">
+        <i class="fas fa-arrow-alt-circle-right"></i>ORACLE PL/SQL</a></div>
+        <div class="content4"><a href="https://www.oracle.com/tools/downloads/sqldev-downloads.html" target="_blank"><i class="fas fa-download"></i>Install ORACLE</a></div>
+        <div class="content5"><a href="https://www.oracle.com/tools/downloads/sqldev-downloads.html" target="_blank"><em>(Windows/macOS/Linux)</em></a></div>
+        </div></div>
+        <div class="glow2"><div class="box2">
+        <div class="icon"><i class="fab fa-linux"></i></div>
+       <div class="content1"><a href="https://youtube.com/playlist?list=PL7B7FA4E693D8E790" target="_blank"><i class="fas fa-arrow-alt-circle-right"></i>
+        BASH SHELL SCRIPTING</a></div>
+        <div class="content2"><a href="https://www.udemy.com/topic/ethical-hacking/free/" target="_blank"><i class="fas fa-arrow-alt-circle-right"></i>
+        BURP SUITE</a></div>
+        <div class="content3"><a href="https://youtube.com/playlist?list=PL7ToPCYKA4e_vsPvfvI2oax1AEiIb6G0F" target="_blank"><i class="fas fa-arrow-alt-circle-right"></i>JOHN THE RIPPER</a></div>
+        </div></div>
+        <div class="glow3"><div class="box3">
+        <div class="icon"><i class="fas fa-cloud"></i></div>
+        <div class="content1"><a href="https://www.udemy.com/topic/microsoft-azure/free/" target="_blank"><i class="fas fa-arrow-alt-circle-right"></i>
+        MICROSOFT AZURE</a></div>
+        <div class="content2"><a href="https://youtube.com/playlist?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC" target="_blank"><i class="fas fa-arrow-alt-circle-right"></i>
+        KUBERNETES</a></div>
+       <div class="content3"><a href="https://www.udemy.com/topic/docker/free/" target="_blank"><i class="fas fa-arrow-alt-circle-right"></i>
+         DOCKER</a></div>
+      </div></div>
+    </div>
 </body>
 </html>
-
-
-
 
 
 
