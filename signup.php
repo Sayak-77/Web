@@ -92,7 +92,6 @@
                <input type="text" 
                       name="phone" 
                       placeholder="Mobile"
-                      pattern="[1-9]{10}"
                       value="<?php echo $_GET['phone']; ?>"><br>
           <?php }else{ ?>
                <input type="text" 
