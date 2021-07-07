@@ -25,37 +25,53 @@ if (isset($_POST['uname']) && isset($_POST['password'])
 
 
 	if (empty($uname)) {
-		header("Location: signup.php?error=User Name is required&$user_data");
+		header("Location: signup.php?error=User Name is required!&$user_data");
 	    exit();
 	}else if(empty($pass)){
-        header("Location: signup.php?error=Password is required&$user_data");
+        header("Location: signup.php?error=Password is required!&$user_data");
 	    exit();
 	}
 	else if(empty($re_pass)){
-        header("Location: signup.php?error=Re Password is required&$user_data");
+        header("Location: signup.php?error=Re Password is required!&$user_data");
+	    exit();
+	}
+	else if(strlen($_POST['phone'])<10){
+        header("Location: signup.php?error=Mobile Number should be of 10 digits!&$user_data");
 	    exit();
 	}
 	else if(empty($email)){
-        header("Location: signup.php?error=Password is required&$user_data");
+        header("Location: signup.php?error=E_Mail is required!&$user_data");
 	    exit();
 	}
 	else if(empty($cllg)){
-        header("Location: signup.php?error=Password is required&$user_data");
+        header("Location: signup.php?error=Education Field has to be entered!&$user_data");
 	    exit();
 	}
 	else if(empty($mob)){
-        header("Location: signup.php?error=Password is required&$user_data");
+        header("Location: signup.php?error=Mobile Number is required!&$user_data");
 	    exit();
 	}
 	else if(empty($name)){
-        header("Location: signup.php?error=Name is required&$user_data");
+        header("Location: signup.php?error=Name is required!&$user_data");
 	    exit();
 	}
-
+	else if(!preg_match("/^[a-zA-Z\s]+$/",$name)){
+        header("Location: signup.php?error=Name should not contain numbers!&$user_data");
+	    exit();
+	}
+	else if(!preg_match("/^[6-9]\d{9}$/",$_POST['phone'])){
+        header("Location: signup.php?error=Invalid Mobile Number!&$user_data");
+	    exit();
+	}
+	else if(!preg_match("/^[a-zA-Z\s]+$/",$cllg)){
+        header("Location: signup.php?error=Invalid Educational Institution!&$user_data");
+	    exit();
+	}
 	else if($pass !== $re_pass){
-        header("Location: signup.php?error=The confirmation password  does not match&$user_data");
+        header("Location: signup.php?error=The confirmation password  does not match..!!&$user_data");
 	    exit();
 	}
+	
 
 	else{
 
