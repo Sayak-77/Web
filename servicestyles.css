@@ -73,7 +73,7 @@ nav#main ul
     bottom: 5.3pc;
     right: 5px;
     width: 117pc;
-    box-shadow: 0 3px 5px 4.5px rgba(252, 212, 137, 0.932);
+    box-shadow:2.5px 6px 7px rgba(252, 212, 137, 0.932);
 }
 nav#main ul li
 {
@@ -199,11 +199,10 @@ header#main .brand1 a
 	color:white;
 	font-size:14px;
 }
-
 #meet {
 	margin: auto;
     width: 30%;
-    border-bottom: 6px solid cyan;
+    box-shadow: inset -3px -4px 6px rgb(15, 255, 243), 3px 4px 4px #171717;
     padding: 5px;
 	text-align:center;
 	border-radius:15px;
