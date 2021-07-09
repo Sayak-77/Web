@@ -296,6 +296,95 @@ for JavaScript (i.e. classic back-end) is considered stable in Kotlin 1.3 by its
 <center><iframe  width="560" height="315" src="https://www.youtube.com/embed/7WVLyowTEZg" title="YouTube video player" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 </div>
 <br><br>
+<div class="jishbox">
+<h3>9.Resources for learning SQL:</h3>
+<p class="jishgeneral"><i>It is a language to communicate with a database, and is the standard language for handling data in relational database management system (RDBMS). A relational database management system, is a database management system in which the database is 
+organized and accessed according to the relationships between data items and these relationships are expressed by means of Tables.<br> 
+SQL statements are used to perform tasks such as updating data on a database, or retrieving data from the database. It is helpful in handling structured data which incorporates relations among entities and variables. It provides us with the advantage to access many 
+records with a single command and also eliminating the need to specify how to specify a record. <br>
+<a href="https://en.wikipedia.org/wiki/SQL" target="_blank">Click here for more info</a></i></p>
+<h4>ADVANTAGES OF SQL:</h4>
+<ul class="jishgeneral">
+<li>FASTER QUERY PROCESSING:
+    <ul>
+	<li>Large amount of data is retrieved quickly and efficiently. Operations like Insertion, deletion, manipulation of data is also done in almost no time. </li>
+	</ul>
+</li>
+<li>STANDARDIZED LANGAUGE:
+    <ul>
+	<li>Due to documentation and long establishment over years, it provides a uniform platform worldwide to all its users. </li>
+	</ul>
+</li>
+<li>PORTABLE:
+    <ul>
+	<li>It can be used in programs in PCs, server, laptops independent of any platform (Operating System, etc). Also, it can be embedded with other applications as per need/requirement/use. </li>
+	</ul>
+</li>
+</ul>
+<p class="jishgeneral"><b>For a brief introduction to SQL refer to the following video:</b></p>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/zbMHLJ0dY4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+</div>
+<br><br>
+<div class="jishbox">
+<h3>10.Resources for learning Linux:</h3>
+<p class="jishgeneral"><i>Linux is a family of open-source Unix-like operating systems based on the Linux kernel,an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution.Distributions include the Linux 
+kernel and supporting system software and libraries, many of which are provided by the GNU Project. Many Linux distributions use the word "Linux" in their name, but the Free Software Foundation uses the name "GNU/Linux" to emphasize the importance of GNU software, causing some controversy.<br>
+Linux was originally developed for personal computers based on the Intel x86 architecture, but has since been ported to more platforms than any other operating system.Because of the dominance of the Linux-based Android on smartphones, Linux also has the largest installed base of all general-purpose operating systems.
+ Although it is used by only around 2.3 percent of desktop computers, the Chromebook, which runs the Linux kernel-based Chrome OS, dominates the US K–12 education market and represents nearly 20 percent of sub-$300 notebook sales in the US. Linux is the leading operating system on servers (over 96.4% of the top 1 million web servers' operating systems are Linux)<br>
+<a href="https://en.wikipedia.org/wiki/Linux" target="_blank">Click here for more info</a></i></p>
+<h4>ADVANTAGES OF LINUX:</h4>
+<ul class="jishgeneral">
+<li>SECURITY:
+    <ul>
+	<li>The Linux security feature is the main reason that it is the most favorable option for developers. It is not completely safe, but it is less vulnerable than others. Each application needs to authorize by the admin user. The virus is not executed until the administrator provides the access password. Linux systems do not require any antivirus program.</li>
+	</ul>
+</li>
+<li>STABILITY:
+    <ul>
+	<li>Linux is more stable than other operating systems. Linux does not require to reboot the system to maintain performance levels. It rarely hangs up or slow down. It has big up-times.</li>
+	</ul>
+</li>
+<li>FLEXIBILITY:
+    <ul>
+	<li>Linux operating system is very flexible. It can be used for desktop applications, embedded systems, and server applications too. It also provides various restriction options for specific computers. We can install only necessary components for a system.</li>
+	</ul>
+</li>
+</ul>
+<p class="jishgeneral"><b>For a brief introduction to Linux refer to the following video:</b></p>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/8DW_4cGwVP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+</div>
+<br/><br/>
+<div class="jishbox">
+<h3>11.Resources for learning Cloud Computing:</h3>
+<p class="jishgeneral"><i>Cloud computing is the on-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user. The term is generally used to describe data centers available 
+to many users over the Internet. Large clouds, predominant today, often have functions distributed over multiple locations from central servers. If the connection to the user is relatively close, it may be designated an edge server. Clouds may be limited to a single organization 
+(enterprise clouds), or be available to multiple organizations (public cloud).Cloud computing relies on sharing of resources to achieve coherence and economies of scale. Advocates of public and hybrid clouds note that cloud computing allows companies to avoid or minimize up-front 
+IT infrastructure costs. Proponents also claim that cloud computing allows enterprises to get their applications up and running faster, with improved manageability and less maintenance, and that it enables IT teams to more rapidly adjust resources to meet fluctuating and unpredictable 
+demand,providing the burst computing capability: high computing power at certain periods of peak demand.<br>
+<a href="https://en.wikipedia.org/wiki/Cloud_computing" target="_blank">Click here for more info</a></i></p>
+<h4>ADVANTAGES OF CLOUD COMPUTING:</h4>
+<ul class="jishgeneral">
+<li>LESS COST:
+    <ul>
+	<li>The services are free from capital expenditure. There are no huge costs of hardware in cloud computing. You just have to pay as you operate it and enjoy the model based on your subscription plan.</li>
+	</ul>
+</li>
+<li>FLEXIBILITY IN CAPACITY:
+    <ul>
+	<li>It offers flexible facility which could be turned off, up or down as per the circumstances of the user. For instance, a promotion of sales is very popular, capacity can be immediately and quickly added to it for the avoidance of losing sales and crashing servers. When 
+	those sales are done, the capacity can also be shrunk for the reduction of costs.</li>
+	</ul>
+</li>
+<li>SECURITY:
+    <ul>
+	<li>Cloud computing offers great security when any sensitive data has been lost. As the data is stored in the system, it can be easily accessed even if something happens to your computer. You can even remotely wipe out data from the lost machines for avoiding it getting in the wrong hands.</li>
+	</ul>
+</li>
+</ul>
+<p class="jishgeneral"><b>For a brief introduction to Cloud Computing refer to the following video:</b></p>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/usYySG1nbfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+</div>
+<br><br>
 <h1 align="center"><i>“A dropout can beat a genius through hard work.”</i></h1><br/><br/>
 </div>
 </body>

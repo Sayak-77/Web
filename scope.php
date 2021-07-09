@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a2dee345c3.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -22,7 +22,7 @@
       <a class="tot">devǝlopersHu𐐒.io</a>
       <li><a href="index2.php">Home</a></li>
       <li><a href="about.php">About</a></li>
-      <li><a href="service.php">Services</a></li>
+      <li><a href="services.php">Services</a></li>
       <li><a href="scope.php">Scope</a></li>
       <div class="search-box">
       <input class="search-txt" type="text" placeholder="Search">
@@ -31,12 +31,14 @@
       </ul>
   </nav>
     </div>
+ 
     <div class="container">
     <div class="row">
         <div class="col-lg-12">
-          <h1 class="page-header">&nbsp;&nbsp;Are these Courses worth to you?</h1>
+          <h1 class="page-header">&nbsp;&nbsp;Are these Courses worth to you...?</h1>
         </div>
-      </div>    
+      </div>
+      
   <div class="row">
          <div class="col-md-4">
           <img class="img-responsive" src="icons_pack/js.png"></a>
@@ -56,7 +58,7 @@
               <span class="el_style">Jquery</span> 
               <span class="el_style">web interactivty</span>  
         </div>
-
+ 
         <div class="col-md-4">
           <img class="img-responsive" src="icons_pack/android.png"></a>
           <h2>Android Development</h2>
@@ -72,11 +74,11 @@
               <span class="el_style">Concurrent Computing</span>
               <span class="el_style">Software Testing</span>     
           </div>
-
+ 
         <div class="col-md-4">
           <img class="img-responsive" src="icons_pack/java.png"></a>
           <h2>JAVA</h2>
-
+ 
           <h3>What you will learn</h3>
           <ul>
             <li>Gain in-depth understanding of core & advanced features of Java including JVM internals</li>
@@ -90,11 +92,11 @@
               <span class="el_style">Programming Principles</span>
               <span class="el_style">Algorithms</span>  
         </div>
-
+ 
       </div>
-
+ 
       
-
+ 
       <div class="row"> 
         <div class="col-md-4">
           <img class="img-responsive" src="icons_pack/git.png"></a>
@@ -111,7 +113,7 @@
             <span class="el_style">Reverting Changes</span>
             <span class="el_style">Creating Pull Requests</span>          
         </div>
-
+ 
         <div class="col-md-4">
           <img class="img-responsive" src="icons_pack/python.png"></a>
           <h2>Python</h2>
@@ -128,7 +130,7 @@
             <span class="el_style">Data Structure</span>
             <span class="el_style">Web Scraping</span>          
         </div>
-
+ 
         <div class="col-md-4">
           <img class="img-responsive" src="icons_pack/kotlin.png"></a>
           <h2>Kotlin</h2>
@@ -146,7 +148,7 @@
             <span class="el_style">Connect Android to PHP web services and MySQL database.</span>          
         </div>
       </div>
-
+ 
         <div class="row"> 
           <div class="col-md-4">
             <img class="img-responsive" src="icons_pack/flutter.png"></a>
@@ -163,7 +165,7 @@
               <span class="el_style">Cryptograph</span>
               <span class="el_style">Flydirekt</span>          
           </div>
-
+ 
           <div class="col-md-4">
             <img class="img-responsive" src="icons_pack/html.png"></a>
             <h2>HTML & CSS</h2>
@@ -176,23 +178,73 @@
             <h3>Skills you will gain</h3>
               <span class="el_style">Web Design</span>
               <span class="el_style">Style Sheets</span>
-              <span class="el_style">Cascading Style Sheets (CCS)</span>
+              <span class="el_style">Cascading Style Sheets (CSS)</span>
               <span class="el_style">Web Development</span>   
           </div>
-
-</div>
-      <hr>
+ 
+          <div class="col-md-4">
+            <img class="img-responsive" src="icons_pack/sql.png"></a>
+            <h2>SQl</h2>
+            <h3>What you will learn</h3>
+            <ul>
+              <li>Learn how to create a database from scratch</li>
+              <li>Write complex SQL queries across multiple tables</li>    
+              <li>Model real-world data and generate reports using SQL</li>
+              <li>Become a proficient Workbench user on MySQL</li>
+            </ul>
+            <h3>Skills you will gain</h3>
+              <span class="el_style">Data Analysis</span>
+              <span class="el_style">Data Science</span>
+              <span class="el_style">SQL Fundamentals</span>              
+              <span class="el_style">SQL</span>  
+              
+          </div>
+        </div>
+ 
+        <div class="row"> 
+          <div class="col-md-4">
+            <img class="img-responsive" src="icons_pack/cc.png"></a>
+            <h2>Cloud Computing</h2>
+            <h3>What you will learn</h3>
+            <ul>
+              <li>Learn general cloud computing concepts</li>
+              <li>Learn the basics of Microsoft Azure</li>    
+              <li>Gain an understanding of the fundamental systems on which the cloud is based</li>
+              <li>Build knowledge from beginner level to advanced concepts</li>
+            </ul>
+            <h3>Skills you will gain</h3>
+              <span class="el_style">Big Data</span>
+              <span class="el_style">Kubernetes</span>
+              <span class="el_style">Docker</span>
+              <span class="el_style">Cloud Infrastructure</span>
+              <span class="el_style">Cloud Applications</span>          
+          </div>
+ 
+          <div class="col-md-4">
+            <img class="img-responsive" src="icons_pack/linux.png"></a>
+            <h2>Linux</h2>
+            <h3>What you will learn</h3>
+            <ul>
+              <li>Quickly Learn the Linux Command Line from Scratch!</li>
+              <li>Learn how to Search for, Customise, Install and Manage Kali Linux Software</li>    
+              <li>Become an Independent User of the Linux Operating System!</li>
+              <li>Build up a Linux target from scratch to hack with Kali Linux</li>
+            </ul>
+            <h3>Skills you will gain</h3>
+              <span class="el_style">Ethical Hacking</span>
+              <span class="el_style">Linux</span>
+              <span class="el_style">Network Security</span> 
+              <br><br><br><br> 
+          </div>
+ 
+          
+        </div>
         </div>
     <div class="container">
-      <hr>
+      
       <footer>
-        <div class="row">
-          <div class="col-lg-12">
-          <h3>All the courses are subject to market-risk</h3>
-          </div>
-        </div>
+        
       </footer>
           </div>
-   
   </body>
 </html>
