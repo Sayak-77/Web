@@ -59,11 +59,12 @@ video
     font-size: 3pc;
     position: relative;
     bottom: 8pc;
-    right: 43.5pc;
+    right: 34pc;
     text-decoration: none;
     background-color: white;
     color: black;
     border-radius: 10px;
     font-family: 'Righteous', cursive;
     font-weight: 700;
+    
 }

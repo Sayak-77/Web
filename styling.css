@@ -1769,6 +1769,39 @@ header#main .brand1 a
     top: 170px;
     opacity: 1;
 }
+.al
+{
+    position: relative;
+    bottom: 75pc;
+}
+.container1
+{
+    position: relative;
+    bottom: 77pc;
+    height: 500px;
+    background-color: #bbeff2;
+}
+.circle
+{
+    width: 900px;
+    height: 50px;
+    position: relative;
+    left: 35pc;
+    bottom: 20pc;
+}
+img
+{
+    src: url(icons_pack/d.jpg);
+    height: 25pc;
+    border-radius: 50%;
+    position: relative;
+    left: 9pc;
+    bottom: 19px;
+    shape-outside: circle();
+    margin: 30px 30px 30px 0;
+    box-shadow:3px 5px 7px black,3px 3px 7px black, 0 0 2px black;
+}
+
 
 
 

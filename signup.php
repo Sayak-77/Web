@@ -28,10 +28,10 @@
               <nav id="main" class="large-8">
                 <ul>
                     <a class="tot">devǝlopersHu𐐒.io</a>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
+                    <li><a href="welcome.php">Home</a></li>
+                    <li><a href="#">About</a></li>
                     <li><a href="services.php">Services</a></li>
-                    <li><a href="scope.php">Scope</a></li>
+                    <li><a href="#">Scope</a></li>
                     <li><a href="login.php"><button class="btn btn-smg" style="position:relative;left:28.92pc;">Login</button></a></li>
                     <div class="search-box">
                       <input class="search-txt" type="text" placeholder="Search">

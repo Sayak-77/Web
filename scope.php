@@ -23,7 +23,7 @@
       <li><a href="index2.php">Home</a></li>
       <li><a href="about.php">About</a></li>
       <li><a href="services.php">Services</a></li>
-      <li><a href="scope.php">Scope</a></li>
+      <li><a href="#">Scope</a></li>
       <div class="search-box">
       <input class="search-txt" type="text" placeholder="Search">
           <a href="#" class="search search-btn"><i class="fab fa-searchengin"></i></a>
@@ -31,16 +31,16 @@
       </ul>
   </nav>
     </div>
- 
+
     <div class="container">
     <div class="row">
         <div class="col-lg-12">
-          <h1 class="page-header">&nbsp;&nbsp;Are these Courses worth to you...?</h1>
+          <h1 class="page-header">&nbsp;&nbsp;Are these <font color=red >Courses</font> worth to you?</h1>
         </div>
       </div>
       
   <div class="row">
-         <div class="col-md-4">
+         <div class="col-md-4 card">
           <img class="img-responsive" src="icons_pack/js.png"></a>
           <h2>Javascript</h2>
           <h3>What you will learn</h3>
@@ -58,8 +58,8 @@
               <span class="el_style">Jquery</span> 
               <span class="el_style">web interactivty</span>  
         </div>
- 
-        <div class="col-md-4">
+
+        <div class="col-md-4 card">
           <img class="img-responsive" src="icons_pack/android.png"></a>
           <h2>Android Development</h2>
           <h3>What you will learn</h3>
@@ -74,11 +74,11 @@
               <span class="el_style">Concurrent Computing</span>
               <span class="el_style">Software Testing</span>     
           </div>
- 
-        <div class="col-md-4">
+
+        <div class="col-md-4 card">
           <img class="img-responsive" src="icons_pack/java.png"></a>
           <h2>JAVA</h2>
- 
+
           <h3>What you will learn</h3>
           <ul>
             <li>Gain in-depth understanding of core & advanced features of Java including JVM internals</li>
@@ -92,13 +92,13 @@
               <span class="el_style">Programming Principles</span>
               <span class="el_style">Algorithms</span>  
         </div>
- 
+
       </div>
- 
+
       
- 
+
       <div class="row"> 
-        <div class="col-md-4">
+        <div class="col-md-4  card">
           <img class="img-responsive" src="icons_pack/git.png"></a>
           <h2>GitHub</h2>
           <h3>What you will learn</h3>
@@ -113,8 +113,9 @@
             <span class="el_style">Reverting Changes</span>
             <span class="el_style">Creating Pull Requests</span>          
         </div>
- 
-        <div class="col-md-4">
+
+
+        <div class="col-md-4  card">
           <img class="img-responsive" src="icons_pack/python.png"></a>
           <h2>Python</h2>
           <h3>What you will learn</h3>
@@ -130,8 +131,8 @@
             <span class="el_style">Data Structure</span>
             <span class="el_style">Web Scraping</span>          
         </div>
- 
-        <div class="col-md-4">
+
+        <div class="col-md-4  card">
           <img class="img-responsive" src="icons_pack/kotlin.png"></a>
           <h2>Kotlin</h2>
           <h3>What you will learn</h3>
@@ -145,12 +146,12 @@
             <span class="el_style">Android app development</span>
             <span class="el_style">OOP in Kotlin</span>
             <span class="el_style">Work with user location and maps</span>
-            <span class="el_style">Connect Android to PHP web services and MySQL database.</span>          
+            <span class="el_style">Connect Android to PHP web services.</span>          
         </div>
       </div>
- 
+
         <div class="row"> 
-          <div class="col-md-4">
+          <div class="col-md-4  card">
             <img class="img-responsive" src="icons_pack/flutter.png"></a>
             <h2>Flutter</h2>
             <h3>What you will learn</h3>
@@ -165,8 +166,8 @@
               <span class="el_style">Cryptograph</span>
               <span class="el_style">Flydirekt</span>          
           </div>
- 
-          <div class="col-md-4">
+
+          <div class="col-md-4  card">
             <img class="img-responsive" src="icons_pack/html.png"></a>
             <h2>HTML & CSS</h2>
             <h3>What you will learn</h3>
@@ -181,8 +182,8 @@
               <span class="el_style">Cascading Style Sheets (CSS)</span>
               <span class="el_style">Web Development</span>   
           </div>
- 
-          <div class="col-md-4">
+
+          <div class="col-md-4  card">
             <img class="img-responsive" src="icons_pack/sql.png"></a>
             <h2>SQl</h2>
             <h3>What you will learn</h3>
@@ -200,9 +201,9 @@
               
           </div>
         </div>
- 
+
         <div class="row"> 
-          <div class="col-md-4">
+          <div class="col-md-4  card">
             <img class="img-responsive" src="icons_pack/cc.png"></a>
             <h2>Cloud Computing</h2>
             <h3>What you will learn</h3>
@@ -219,8 +220,8 @@
               <span class="el_style">Cloud Infrastructure</span>
               <span class="el_style">Cloud Applications</span>          
           </div>
- 
-          <div class="col-md-4">
+
+          <div class="col-md-4  card">
             <img class="img-responsive" src="icons_pack/linux.png"></a>
             <h2>Linux</h2>
             <h3>What you will learn</h3>
@@ -236,7 +237,7 @@
               <span class="el_style">Network Security</span> 
               <br><br><br><br> 
           </div>
- 
+
           
         </div>
         </div>
@@ -246,5 +247,6 @@
         
       </footer>
           </div>
+          <hr class="wow">
   </body>
 </html>
