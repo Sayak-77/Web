@@ -53,7 +53,7 @@ Feel free to contact any of the developers if you have any queries  or you want 
 </div>
 <div id="whole">
 <div class="floats" style="position:relative;right:5pc">
-<img src="sayak.png" class="images">
+<img src="team/sayak.png" class="images">
 <p align="center" class="info"><big><big>Sayak</big></big><p>
 <p class="info"><b>Education:</b><br><i>BE CSE 2nd Year</i></p>
 <p class="info"><b>Institution:</b><br><i>Chandigarh University</i></p>
@@ -61,7 +61,7 @@ Feel free to contact any of the developers if you have any queries  or you want 
 <p class="info"><b>Contact Number:</b><br><i>7483755093</i></p>
 </div>
 <div class="floats" style="position:relative;left:20.5pc;bottom:39.4pc">
-<img src="jishnu.png" class="images">
+<img src="team/jishnu.png" class="images">
 <p align="center" class="info"><big><big>Jishnu</big></big><p>
 <p class="info"><b>Education:</b><br><i>BE CSE 2nd Year</i></p>
 <p class="info"><b>Institution:</b><br><i>Chandigarh University</i></p> 
@@ -69,7 +69,7 @@ Feel free to contact any of the developers if you have any queries  or you want 
 <p class="info"><b>Contact Number:</b><br><i>4467387463</i></p>
 </div>
 <div class="floats" style="position:relative;left:46pc;bottom:78.7pc">
-<img src="adarsh.png" class="images">
+<img src="team/adarsh.png" class="images">
 <p align="center" class="info"><big><big>Adarsh</big></big><p>
 <p class="info"><b>Education:</b><br><i>BE CSE 2nd Year</i></p>
 <p class="info"><b>Institution:</b><br><i>Chandigarh University</i></p> 
@@ -77,7 +77,7 @@ Feel free to contact any of the developers if you have any queries  or you want 
 <p class="info"><b>Contact Number:</b><br><i>5837463329</i></p>
 </div>
 <div class="floats" style="position:relative;left:71.5pc;bottom:117.9pc">
-<img src="mohit1.png" class="images">
+<img src="team/mohit1.png" class="images">
 <p align="center" class="info"><big><big>Mohit</big></big><p>
 <p class="info"><b>Education:</b><br><i>BE CSE 2nd Year</i></p>
 <p class="info"><b>Institution:</b><br><i>Chandigarh University</i></p> 

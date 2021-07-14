@@ -79,7 +79,7 @@
     <div class="container background-Orange" style="height:1100px;">
       <div class="img" style="background:url(icons_pack/knight.jpg);background-size:cover;width:100%;height:72pc;filter: blur(2.8px);"></div>
             <ul style="height:0;width:0;position: relative;bottom:10pc;">
-            <a class="tot1" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:4pc;color: white;">Welcome to</a>
+            <a class="tot1" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:4pc;color:rgb(197, 195, 195);">Welcome to</a>
            <a class="tot" style="font-family:'Alfa Slab One', cursive;font-size: 4pc;color:rgb(197, 195, 195);">"devǝlopersHu𐐒.io!"</a>
         </ul>
            </div>
@@ -88,7 +88,7 @@
         <a href="login.php"><button type="button" class="button" onclick="getInfo()" style="border-bottom: 2px solid white;"> Login </button></a>
         <a href="signup.php"><button type="button" class="button" onclick="getInfo()" style="border-bottom: 2px solid white;"> Register </button></a>
     </div>
-    <h2 class="img1" style="position:relative;bottom:42pc;left:65pc;color:turquoise;width: 40%;font-family:'Merienda', cursive;font-size: 2.3pc;text-align:left;">"Hola,We are devǝlopersHub of the 
+    <h2 class="img1" style="position:relative;bottom:42pc;left:65pc;color:white;width: 40%;font-family:'Merienda', cursive;font-size: 2.3pc;text-align:left;">"Hola,We are devǝlopersHub of the 
     people,by the people and for the people.The motto of our work is "Creed Cöde & CЯack..~" and our theme rests on REVOLUTION.Our vision constitutes subtle innovations and 
     futuristic developments & our mission is to channelize such aspirants forward by granting them resources..."                                                                 
                                                                                                                                                                               

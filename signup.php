@@ -29,9 +29,9 @@
                 <ul>
                     <a class="tot">devǝlopersHu𐐒.io</a>
                     <li><a href="welcome.php">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="services.php">Services</a></li>
-                    <li><a href="#">Scope</a></li>
+                    <li><a href="#" onclick="get()">About</a></li>
+                    <li><a href="#" onclick="get()">Services</a></li>
+                    <li><a href="#" onclick="get()">Scope</a></li>
                     <li><a href="login.php"><button class="btn btn-smg" style="position:relative;left:28.92pc;">Login</button></a></li>
                     <div class="search-box">
                       <input class="search-txt" type="text" placeholder="Search">
@@ -125,5 +125,11 @@
      	<button type="submit"><a style="position:relative;bottom:4px;">Register</a></button>
           <a href="login.php" class="ca">Already have an account?</a>
      </form>
+     <script type="text/javascript">
+     function get()
+     {
+          alert("Please Register as New_User first or Login");
+     }
+     </script>
 </body>
 </html>

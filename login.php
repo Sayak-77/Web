@@ -29,9 +29,9 @@
                 <ul>
                     <a class="tot">devǝlopersHu𐐒.io</a>
                     <li><a href="welcome.php">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="services.php">Services</a></li>
-                    <li><a href="#">Scope</a></li>
+                    <li><a href="#" onclick="set()">About</a></li>
+                    <li><a href="#" onclick="set()">Services</a></li>
+                    <li><a href="#" onclick="set()">Scope</a></li>
                     <div class="search-box">
                       <input class="search-txt" type="text" placeholder="Search">
                       <a href="#" class="search search-btn"><i class="fab fa-searchengin"></i></a>
@@ -54,5 +54,13 @@
      	<button type="submit"><a style="position:relative;bottom:4px">Login</a></button>
           <a href="signup.php" class="ca">Create an account</a>
      </form>
+     <script type="text/javascript">
+       function set()
+       {
+         alert("Please Login first or Create a New_User Account..!");
+       }
+
+     </script>
+
         </body>
         </html>
