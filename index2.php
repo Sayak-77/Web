@@ -4,7 +4,6 @@
     <meta charset = "utf-8" />
     <title></title>
     <link rel="stylesheet" type="text/css" href="styling.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
@@ -12,15 +11,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a2dee345c3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container background-Orange">
         <header class="row" id="main">
           <div class="large-2 column">
-          <div class="brand">
-            <hi><a href="#"></a></hi>
-          </div>
           <div class="brand1">
             <hi><a href="#"></a></hi>
           </div>
@@ -28,16 +27,16 @@
           </div>
           <nav id="main" class="large-8">
             <ul>
-                <a class="tot">devǝlopersHu𐐒.io</a>
-                <li><a href="index2.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="services.php">Services</a></li>
-                <li><a href="scope.php">Scope</a></li>
-                <li><a href="logout.php"><button class="btn btn-smg" style="position:relative;left:26pc;">Logout</button></a></li>
-                <div class="search-box">
-                  <input class="search-txt" type="text" placeholder="Search">
-                  <a href="#" class="search search-btn"><i class="fab fa-searchengin"></i></a>
-                </div>
+              <a class="tot">devǝlopersHu𐐒.io</a>
+              <li><a href="index2.php">Home</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="services.php">Services</a></li>
+              <li><a href="scope.php">Scope</a></li>
+              <li><a href="logout.php"><button class="btn btn-smg" style="position:relative;left:26pc;">Logout</button></a></li>
+              <div class="search-box">
+              <input class="search-txt" type="text" placeholder="Search">
+              <a href="#" class="search search-btn"><i class="fab fa-searchengin"></i></a>
+             </div>
             </ul>
           </nav>
     </header>
@@ -140,17 +139,17 @@
       <img src="icons_pack/d.jpg">
       <div class="circle">
       <h1 style="position: relative;left: 6pc;bottom:14pc;font-size: 2.5pc;font-family: 'Merienda', cursive;">INSIDE OUT....</h1>
-      <ul style="position: relative;bottom: 15pc;left: 4pc;list-style-type: square;font-family:'Ubuntu', sans-serif;font-size: 21.5px;">
+      <ul style="position: relative;bottom: 15pc;left: 4pc;list-style-type: square;font-family:'Ubuntu', sans-serif;font-size: 21.5px;text-align:justify;">
         <li ><b><big>AI:</big></b> Artificial Intelligence (AI) is one of the most transformative tech evolutions of our times. This will continue in 2020,and while people will increasingly become 
           used to working alongside AIs,designing and deploying our own AI-based systems will remain an expensive proposition for most businesses.</li>
         <li><b><big>5G:</big></b> The 5th generation of mobile internet connectivity is going to give us super-fast download and upload speeds as well as more stable connections. While 5G mobile 
-        data networks became available for the first time in 2019. 2020 is likely to be the year when 5G really starts to fly</li>
+        data networks became available for the first time in 2019. 2020 is likely to be the year when 5G really starts to fly.</li>
         <li><b><big>Autonomous Driving:</big></b> Tesla chief Elon Musk has said he expects his company to create a truly “complete” 
         autonomous vehicle by this year.. Google's sister-company Waymo has just completed a trial of autonomous taxis in California, where it transported more than 6200 people in 
         the first month.</li>
         <li><b><big>Extended Reality:</big></b> Extended Reality (XR) is a catch-all term that covers several new and emerging technologies 
         being used to create more immersive digital experiences.Virtual reality (VR) provides a fully digitally immersive experience while Mixed reality (MR) is an extension of AR, 
-        that means users can interact with digital objects placed in the real world</li>
+        that means users can interact with digital objects placed in the real world.</li>
       </ul></div>
       <svg style="position: relative;bottom:5pc;" xmlns="http://www.w3.org/2000/svg" viewBox="0 40 1440 320"><path fill="#bbeff2" fill-opacity="1" d="M0,96L288,192L576,
       128L864,128L1152,32L1440,32L1440,0L1152,0L864,0L576,0L288,0L0,0Z"></path></svg>
@@ -179,13 +178,15 @@
       <dd style="font-family:'Fredoka One', cursive;font-size:1.7pc;white-space: nowrap;position:relative;left:62pc;bottom:10.4pc;width:30%;">
         <a href="https://youtu.be/NKVOjPHfiSA"target="_blank" style="color:teal;">https://youtu.be/NKVOjPHfiSA</a></dd>
       <dt style="font-size: 1.8pc;font-family:'Merienda', cursive;">JavaScripT:: </dt>
-  <dd style="font-family:'Fredoka One', cursive;font-size:1.7pc;white-space: nowrap;width:50%;"><a href="https://github.com/trekhleb/javascript-algorithms"target="_blank" style="color:#43449c;">
+      <dd style="font-family:'Fredoka One', cursive;font-size:1.7pc;white-space: nowrap;width:50%;"><a href="https://github.com/trekhleb/javascript-algorithms"target="_blank" 
+        style="color:#43449c;">
         https://github.com/trekhleb/javascript-algorithms</a></dd>
       <dd style="font-family:'Fredoka One', cursive;font-size:1.7pc;white-space: nowrap;width:50%;"><a href="https://youtu.be/bI6e6qjJ8JQ"target="_blank" style="color:#43449c;">
         https://youtu.be/bI6e6qjJ8JQ</a></dd>
       <dd style="font-family:'Fredoka One', cursive;font-size:1.7pc;white-space: nowrap;width:50%;"><a href="https://youtu.be/N3cq0BHDMOY"target="_blank" style="color:#43449c;"">
         https://youtu.be/N3cq0BHDMOY</a></dd>
- <dd style="font-family:'Fredoka One', cursive;font-size:1.7pc;white-space: nowrap;width:50%;"><a href="https://github.com/bradtraversy/vanillawebprojects"target="_blank" style="color:#43449c;">
+        <dd style="font-family:'Fredoka One', cursive;font-size:1.7pc;white-space: nowrap;width:50%;"><a href="https://github.com/bradtraversy/vanillawebprojects"target="_blank" 
+        style="color:#43449c;">
         https://github.com/bradtraversy/vanillawebprojects</a></dd>
         <dt style="font-size: 1.8pc;font-family:'Merienda', cursive;position: relative;left:61pc;bottom:11pc;width:35%;">ANDROID:: </dt>
       <dd style="font-family:'Fredoka One', cursive;font-size:1.7pc;white-space: nowrap;position:relative;left:62pc;bottom:11pc;width:35%;">
@@ -205,10 +206,42 @@
     <a href="https://youtu.be/OYy6M7hHeFw"target="_blank" style="color:#43449c;">https://youtu.be/OYy6M7hHeFw</a></dd>
     <dd style="font-family:'Fredoka One', cursive;font-size:1.7pc;white-space: nowrap;position: relative;left:33pc;width:35%;">
     <a href="https://youtu.be/xt1Z7s5zpJM"target="_blank" style="color:#43449c;">https://youtu.be/xt1Z7s5zpJM</a></dd>
-      </dl>
-      </div>
+    </dl>
     </div>
-    <div>hi</div>
+    </div>
+    <div class="last" style="background-color:#171717;width:100%;height:400px;position: relative;top:5pc"><h2 class="head">devǝlopersHu𐐒.io</h2>
+    <p style="color:gray;width:30%;position: relative;left:6pc;font-family:'Crimson Text', serif;font-size:21px;text-align:justify;">DevelopersHub is an educational site, 
+    created for the sole purpose of endorsing resources to developers.Here, we aspire to inspire others so that they can express themselves as clear as a stream of input , 
+    get processed and reap great outputs..!!</p>
+    <i class="fas fa-phone-alt" id="us"><span style="position:relative;left:10px;font-size:23px;">60093-75531</span></i>
+    <i class="fas fa-envelope" id="us1"><span style="position:relative;left:12px;font-size:23px;"><a>developershub_Info@gmail.com</a></span></i>
+    <i class="fas fa-map-marker-alt" id="us2"><span style="position:relative;left:14px;font-size:23px;">NH-95, Ludhiana-Chandigarh State Highway, Punjab 140413</span></i>
+    <h2 class="con">Follow Us<hr size="2" style="width:26%;position: relative;right:69px;bottom:2px;border:1px solid #e91e63;"></h2>
+    <ul style="display:flex;list-style:none;margin:0;padding:0;height:10px;position: relative;bottom: 10px;width:0;">
+      <a href="https://www.facebook.com/login/web/" target="_blank"><li><i class="fab fa-facebook-f"></i></li></a>
+      <a href="https://twitter.com/login?lang=en" target="_blank"><li><i class="fab fa-twitter"></i></li></a>
+      <a href="https://www.instagram.com/accounts/login/" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+      <a href="https://www.linkedin.com/signup/cold-join" target="_blank"><li><i class="fab fa-linkedin-in"></i></li></a>
+    </ul>
+    <h2 class="con1">Company<hr size="2" style="width:26%;position: relative;right:69px;bottom:2px;border:1px solid #e91e63;"></h2>
+    <ol class="comp" style="list-style: none;margin: 0;padding: 0;height:10px;position: relative;bottom:6.5pc;width:0;">
+      <a href="about.php" style="text-decoration: none;"><li>About Us</li></a>
+      <a href="services.php" style="text-decoration: none;"><li>Our Services</li></a>
+      <a href="https://www.privacypolicygenerator.info/live.php?token=MOQeI2T5pUzKNszhE6j9kd1QptZNW2tE" style="text-decoration: none;"><li>Privacy Policy</li></a>
+      <a href="https://www.termsandconditionsgenerator.com/live.php?token=9jPzlEubqAc8INk8nDx1cNNqjiAKvrgJ" style="text-decoration: none;"><li>Terms & Conditions</li></a>
+      <a href="https://www.tendtoread.com/affiliate-marketing-sites-list-highest-paying/" style="text-decoration: none;position: relative;bottom:30px;">
+      <li style="margin-top:41px;height:2px;">Affiliate Programme</li></a>
+    </ol>
+    <h2 class="con2">Quick Links<hr size="2" style="width:8.5%;position: relative;right:255px;bottom:2px;border:1px solid #e91e63;"></h2>
+    <ol class="link" style="list-style: none;margin: 0;padding: 0;height:10px;position: relative;bottom:13pc;width:0;">
+    <a href="https://policies.google.com/faq?hl=en-US" target="_blank" style="text-decoration: none;"><li>F.A.Q's</li></a>
+    <a href="scope.php" target="_blank" style="text-decoration: none;"><li>Scope</li></a>
+    <a href="https://www.cnet.com/roadshow/news/tesla-elon-musk-model-s-plaid-cybertruck-semi-gigafactory/" target="_blank" style="text-decoration: none;"><li>Most Popular</li></a>
+    <a href="https://support.google.com/" target="_blank" style="text-decoration: none;"><li>Help & Support</li></a>
+    </ol>
+    <div class="end" style="width:100%;height:13%;background-color:gray;position: relative;bottom:30.2%;">
+    <p style="position:relative;top:14px;font-size: 15px;text-align: center;"><b>Copyright &copy;2021 developershub. Designed by Team Alpha.&nbsp;&nbsp;&nbsp;<em>All Rights Reserved!!</em></b></p>
+    </div>
 </body>
 </html>
 

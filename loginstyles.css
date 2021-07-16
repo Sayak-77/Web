@@ -5,7 +5,7 @@ html
 body
 {
   margin: 0px;
-  background:url(img.jpg);
+  background:url(team/img.jpg);
   background-size: 100% 160%;
   background-repeat: no-repeat;
   height: 830px;
@@ -131,6 +131,7 @@ header#main .brand1 a
     background: white;
     height: 35px;
     margin-bottom: 10px;
+    color: black;
 }
 .search-btn
 {

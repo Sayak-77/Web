@@ -8,6 +8,8 @@ body
   background: -moz-linear-gradient(225deg, hsla(220, 61%, 79%, 1) 17%, hsla(312, 77%, 86%, 1) 59%, hsla(9, 72%, 86%, 1) 91%);
   background: -webkit-linear-gradient(225deg, hsla(220, 61%, 79%, 1) 17%, hsla(312, 77%, 86%, 1) 59%, hsla(9, 72%, 86%, 1) 91%);
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A7BDEA", endColorstr="#F7C0EC", GradientType=1 );
+  height: 42px;
+  width: 100%;
 }
 .container
 {
@@ -129,6 +131,7 @@ header#main .brand1 a
     background: white;
     height: 35px;
     margin-bottom: 10px;
+    color: black;
 }
 .search-btn
 {
@@ -1801,8 +1804,134 @@ img
     margin: 30px 30px 30px 0;
     box-shadow:3px 5px 7px black,3px 3px 7px black, 0 0 2px black;
 }
-
-
-
-
-
+.head
+{
+    color:#cc0052;
+    font-family: 'Righteous', cursive;
+    font-size: 3pc;
+    position: relative;
+    left: 5%;
+    top: 5%;
+    width:25%;
+}
+#us
+{
+    position: relative;
+    left: 6pc;
+    font-size:22px;
+    color: gray;
+}
+#us1
+{
+    color: gray;
+    font-size: 22px;
+    position: relative;
+    right: 55px;
+    top: 50px;
+}
+#us2
+{
+    color: gray;
+    font-size: 22px;
+    position: relative;
+    right:21%;
+    top: 100px;
+}
+.con
+{
+    color:wheat;
+    font-family: 'Righteous', cursive;
+    font-size:22px;
+    position: relative;
+    left:83.3%;
+    bottom:53.2%;
+    width: 10%;
+}
+.last ul a li
+{
+    font-size: 30px;
+    display: block;
+    height:45px;
+    width:45px;
+    background: black;
+    line-height: 45px;
+    border-radius: 50%;
+    color: gray;
+    margin: 0 15px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    bottom: 197px;
+    left: 98pc;
+    transition: .6s;
+    box-shadow: 0 4px 2px rgba(161, 157, 157, 0.5);
+}
+.last ul a li:hover
+{
+    color: #ffa502;
+    box-shadow: 0 0 15px 5px#d35400;
+    transform: translate(0,-10px);
+}
+.con1
+{
+    color:wheat;
+    font-family: 'Righteous', cursive;
+    font-size:22px;
+    position: relative;
+    left: 50%;
+    bottom:75.6%;
+    width: 10%;
+}
+#text
+{
+    font-size:10px;
+}
+.last .comp a li
+{
+    color: gray;
+    font-size:17px;
+    position: relative;
+    left: 59.5pc;
+    bottom: 12pc;
+    margin-top: 10px;
+    transition: .6s;
+    width: 5%;
+    white-space: nowrap;
+}
+.last .comp a li:hover
+{
+    transform: translate(0,-6px);
+    color: white;
+}
+.con2
+{
+    color:wheat;
+    font-family: 'Righteous', cursive;
+    font-size:22px;
+    position: relative;
+    left:66%;
+    bottom: 97.1%;
+    width: 30%;
+}
+.last .link a li
+{
+    color: gray;
+    font-size: 17px;
+    position: relative;
+    left: 78.85pc;
+    bottom:10.8pc;
+    margin-top: 8px;
+    transition: .6s;
+    width: 3%;
+    white-space: nowrap;
+}
+.last .link a li:hover
+{
+    transform: translate(0,-5px);
+    color: white;
+}
+html
+{
+    height: 4252px;
+    width: 100%;
+}
