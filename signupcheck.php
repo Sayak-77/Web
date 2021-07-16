@@ -35,16 +35,12 @@ if (isset($_POST['uname']) && isset($_POST['password'])
         header("Location: signup.php?error=Re Password is required!&$user_data");
 	    exit();
 	}
-	else if(strlen($_POST['phone'])<10){
-        header("Location: signup.php?error=Mobile Number should be of 10 digits!&$user_data");
-	    exit();
-	}
 	else if(empty($email)){
         header("Location: signup.php?error=E_Mail is required!&$user_data");
 	    exit();
 	}
 	else if(empty($cllg)){
-        header("Location: signup.php?error=Education Field has to be entered!&$user_data");
+        header("Location: signup.php?error=Education Field should be entered!&$user_data");
 	    exit();
 	}
 	else if(empty($mob)){
@@ -56,7 +52,11 @@ if (isset($_POST['uname']) && isset($_POST['password'])
 	    exit();
 	}
 	else if(!preg_match("/^[a-zA-Z\s]+$/",$name)){
-        header("Location: signup.php?error=Name should not contain numbers!&$user_data");
+        header("Location: signup.php?error=Name should not contain numbers or Special Characters!&$user_data");
+	    exit();
+	}
+	else if(strlen($_POST['phone'])<10){
+        header("Location: signup.php?error=Mobile Number should be of 10 digits!&$user_data");
 	    exit();
 	}
 	else if(!preg_match("/^[6-9]\d{9}$/",$_POST['phone'])){
@@ -64,8 +64,28 @@ if (isset($_POST['uname']) && isset($_POST['password'])
 	    exit();
 	}
 	else if(!preg_match("/^[a-zA-Z\s]+$/",$cllg)){
-        header("Location: signup.php?error=Invalid Educational Institution!&$user_data");
+        header("Location: signup.php?error=Invalid Educational Institution.Numbers or Special Characters should be avoided!&$user_data");
 	    exit();
+	}
+	else if(strlen($_POST['password'])<=8){
+	    header("Location: signup.php?error=Password should contain atleast 8 characters!&$user_data"); 
+		exit();
+	}
+	else if(!preg_match("#[a-z]+#",$_POST['password'])){
+		header("Location: signup.php?error=Password should contain atleast One Lowercase Letter!&$user_data"); 
+		exit();
+	}
+	else if(!preg_match("#[A-Z]+#",$_POST['password'])){
+		header("Location: signup.php?error=Password should contain atleast One Uppercase Letter!&$user_data"); 
+		exit();
+	}
+	else if(!preg_match("#[0-9]+#",$_POST['password'])){
+		header("Location: signup.php?error=Password should contain atleast One Number!&$user_data"); 
+		exit();
+	}
+	else if(!preg_match('@[^\w]@',$_POST['password'])){
+		header("Location: signup.php?error=Password should contain atleast One Special Character!&$user_data"); 
+		exit();
 	}
 	else if($pass !== $re_pass){
         header("Location: signup.php?error=The confirmation password  does not match..!!&$user_data");
