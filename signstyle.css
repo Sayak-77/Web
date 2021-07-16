@@ -186,14 +186,12 @@ form {
     bottom: 72pc;
     left: 39%;
 }
-
 h2 {
 	text-align: center;
 	margin-bottom: 40px;
     color: wheat;
     font-size: 2.1pc;
 }
-
 input {
 	display: block;
 	border: 2px solid #ccc;
@@ -234,7 +232,6 @@ button:hover{
    border-radius: 5px;
    margin: 20px auto;
 }
-
 .success {
    background: #D4EDDA;
    color: #40754C;
