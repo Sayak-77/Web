@@ -23,7 +23,7 @@
       <li><a href="index2.php">Home</a></li>
       <li><a href="about.php">About</a></li>
       <li><a href="services.php">Services</a></li>
-      <li><a href="#">Scope</a></li>
+      <li><a href="scope.php">Scope</a></li>
       <div class="search-box">
       <input class="search-txt" type="text" placeholder="Search">
           <a href="#" class="search search-btn"><i class="fab fa-searchengin"></i></a>
@@ -35,11 +35,10 @@
     <div class="container">
     <div class="row">
         <div class="col-lg-12">
-          <h1 class="page-header">&nbsp;&nbsp;Are these <font color=red >Courses</font> worth to you?</h1>
+          <h1 class="page-header">&nbsp;&nbsp;<span style="position:relative;top:4px;">Are these <font color=red >Courses</font> worth to you?</span></h1>
         </div>
       </div>
-      
-  <div class="row">
+     <div class="row">
          <div class="col-md-4 card">
           <img class="img-responsive" src="icons_pack/js.png"></a>
           <h2>Javascript</h2>

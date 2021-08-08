@@ -53,6 +53,7 @@ nav#main ul li a
     font-weight: 700;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 header#main .brand1 a
 {
@@ -181,6 +182,19 @@ h1 {
 	padding-bottom:10px;
 	padding-top:6px;
     box-shadow: inset 3px 4px 6px rgb(63, 255, 15), -3px -4px 4px #171717;
+}
+.mix
+{
+    background: hsla(333, 100%, 53%, 1);
+    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF0F7B", endColorstr="#F89B29", GradientType=1 );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Merienda', cursive;
 }
 
 

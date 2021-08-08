@@ -29,9 +29,9 @@
                 <ul>
                     <a class="tot">devǝlopersHu𐐒.io</a>
                     <li><a href="welcome.php">Home</a></li>
-                    <li><a href="#" onclick="get()">About</a></li>
-                    <li><a href="#" onclick="get()">Services</a></li>
-                    <li><a href="#" onclick="get()">Scope</a></li>
+                    <li><a onclick="get()">About</a></li>
+                    <li><a onclick="get()">Services</a></li>
+                    <li><a onclick="get()">Scope</a></li>
                     <li><a href="login.php"><button class="btn btn-smg" style="position:relative;left:28.92pc;">Login</button></a></li>
                     <div class="search-box">
                       <input class="search-txt" type="text" placeholder="Search">

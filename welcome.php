@@ -85,8 +85,8 @@
            </div>
       <div class="login-box"> 
         <h1>Login or Register..!!</h1>
-        <a href="login.php"><button type="button" class="button" onclick="getInfo()" style="border-bottom: 2px solid white;"> Login </button></a>
-        <a href="signup.php"><button type="button" class="button" onclick="getInfo()" style="border-bottom: 2px solid white;"> Register </button></a>
+        <a href="login.php"><button type="button" class="button" onclick="getInfo()" style="border-bottom: 2px solid white;cursor:pointer"> Login </button></a>
+        <a href="signup.php"><button type="button" class="button" onclick="getInfo()" style="border-bottom: 2px solid white;cursor:pointer"> Register </button></a>
     </div>
     <h2 class="img1" style="position:relative;bottom:42pc;left:65pc;color:white;width: 40%;font-family:'Merienda', cursive;font-size: 2.3pc;text-align:left;">"Hola,We are devǝlopersHub of the 
     people,by the people and for the people.The motto of our work is "Creed Cöde & CЯack..~" and our theme rests on REVOLUTION.Our vision constitutes subtle innovations and 

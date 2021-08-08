@@ -82,6 +82,7 @@ nav#main ul li a
   color: white;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
+  cursor: pointer;
 }
 .tot 
 {
@@ -150,16 +151,13 @@ nav#main ul li a
 {
   margin-left: 325px;
 }
-
-.row {
-
+.row 
+{
   margin-right: 5px;
   margin-left: 5px;
   margin-top: 0%;
   display: flex;
-    }
-    
-
+}
 .container {
   
   padding-right: 15px;
@@ -167,8 +165,6 @@ nav#main ul li a
   margin-right: 0px;
   margin-left: 10px;
   margin-top: 1%;
-  
-
 }
 .containernav
 {

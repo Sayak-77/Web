@@ -86,6 +86,7 @@ nav#main ul li a
     font-weight: 700;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 header#main .brand1 a
 {

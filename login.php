@@ -29,9 +29,9 @@
                 <ul>
                     <a class="tot">devǝlopersHu𐐒.io</a>
                     <li><a href="welcome.php">Home</a></li>
-                    <li><a href="#" onclick="set()">About</a></li>
-                    <li><a href="#" onclick="set()">Services</a></li>
-                    <li><a href="#" onclick="set()">Scope</a></li>
+                    <li><a onclick="set()">About</a></li>
+                    <li><a onclick="set()">Services</a></li>
+                    <li><a onclick="set()">Scope</a></li>
                     <div class="search-box">
                       <input class="search-txt" type="text" placeholder="Search">
                       <a href="#" class="search search-btn"><i class="fab fa-searchengin"></i></a>

@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a2dee345c3.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -41,7 +41,7 @@
     </header>
 <div class="jish1">
 <div class="introduction">
-<h1 align="center"><big style="font-family:'Tourney', cursive;">ABOUT "DEVELOPERSHUB.IO"</big></h1>
+<h1 class="mix" align="center">ABOUT "DEVELOPERSHUB.IO"</h1>
 <p align="center" class="jishgeneral" ><big><i>"developershub.io" focuses on providing resources to the users, using which they can learn about 
 different languages such as Java, Python and many others.<br>The website fills the gap between the users and the resources, 
 helping them to explore a new field or learn more about their interests."</i></big></p>
